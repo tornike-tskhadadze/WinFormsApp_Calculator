@@ -75,6 +75,7 @@
             button3.TabIndex = 3;
             button3.Text = "2";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -94,6 +95,7 @@
             button5.TabIndex = 5;
             button5.Text = "4";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -113,6 +115,7 @@
             button7.TabIndex = 7;
             button7.Text = "6";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
             // 
             // button1
             // 
@@ -122,6 +125,7 @@
             button1.TabIndex = 8;
             button1.Text = "7";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button8
             // 
@@ -131,6 +135,7 @@
             button8.TabIndex = 9;
             button8.Text = "8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -140,6 +145,7 @@
             button9.TabIndex = 10;
             button9.Text = "9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button10
             // 
@@ -149,6 +155,7 @@
             button10.TabIndex = 11;
             button10.Text = "0";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -158,6 +165,7 @@
             button11.TabIndex = 12;
             button11.Text = "-";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
             // 
             // button12
             // 
@@ -187,6 +195,7 @@
             button14.TabIndex = 15;
             button14.Text = "/";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += button14_Click;
             // 
             // button15
             // 
@@ -194,8 +203,9 @@
             button15.Name = "button15";
             button15.Size = new Size(94, 29);
             button15.TabIndex = 16;
-            button15.Text = "x";
+            button15.Text = "*";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += button15_Click;
             // 
             // button16
             // 
@@ -205,6 +215,7 @@
             button16.TabIndex = 17;
             button16.Text = "Clear";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += button16_Click;
             // 
             // button17
             // 
